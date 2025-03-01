@@ -1,0 +1,23 @@
+/* Container with rounded corners */
+.supporters {
+  border-radius: 15px;
+}
+
+/* Custom scrollbar styles */
+.supporters::-webkit-scrollbar {
+  width: 8px;
+}
+
+.supporters::-webkit-scrollbar-track {
+  background: #555;
+  border-radius: 15px;
+}
+
+.supporters::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 15px;
+}
+
+.supporters::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
